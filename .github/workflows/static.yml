@@ -39,6 +39,8 @@ jobs:
           source: README.md
           output: index.html
           github-corners: https://github.com/Wu-Wu/charts
+          markdown-style-theme: 'light'
+          title: "Wu-Wu's Library for Kubernetes"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
