@@ -1,22 +1,22 @@
 {{- if not .Values.nginxConf.existingConfigmap }}
-apiVersion: v1 
+apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: nginx-conf
-data: 
+  name: cyberchef-nginx-conf
+data:
   nginx.conf: |
     worker_processes  auto;
 
     error_log  /tmp/nginx/error.log warn;
     pid        /tmp/nginx/nginx.pid;
 
-    events { 
-    worker_connections  1024; 
+    events {
+        worker_connections  1024;
     }
 
     http {
         include /etc/nginx/mime.types;
-        
+
         server {
             listen 8080;
             server_name _;

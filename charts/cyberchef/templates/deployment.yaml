@@ -101,7 +101,7 @@ spec:
           emptyDir: {}
         - name: conf
           configMap:
-            name: {{ default "nginx-conf" .Values.nginxConf.existingConfigmap }}
+            name: {{ default "cyberchef-nginx-conf" .Values.nginxConf.existingConfigmap }}
         {{- if .Values.extraVolumes }}
         {{- toYaml .Values.extraVolumes | nindent 8 }}
         {{- end }}
