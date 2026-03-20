@@ -1,6 +1,7 @@
 apiVersion: v2
 name: cyberchef
 description: The Cyber Swiss Army Knife
+icon: https://raw.githubusercontent.com/gchq/CyberChef/8c4a55b2b18cc13205e03420e1f0bd4c0545c745/src/web/static/images/cyberchef-256x256.png
 sources:
   - https://github.com/Wu-Wu/charts
   - https://github.com/gchq/CyberChef
