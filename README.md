@@ -14,7 +14,7 @@ Popular applications, provided by [Wu-Wu](https://github.com/Wu-Wu), ready to la
 ## TL;DR
 
 ```shell
-helm repo add Wu-Wu https://TODO
+helm repo add Wu-Wu https://wu-wu.github.io/charts
 helm repo update
 ```
 
