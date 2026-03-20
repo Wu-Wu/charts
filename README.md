@@ -14,7 +14,7 @@ Popular applications, provided by [Wu-Wu](https://github.com/Wu-Wu), ready to la
 ## TL;DR
 
 ```shell
-helm repo add Wu-Wu https://wu-wu.github.io/charts
+helm repo add wu-wu https://wu-wu.github.io/charts
 helm repo update
 ```
 
@@ -29,5 +29,11 @@ helm repo update
 </tr>
 </thead>
 <tbody>
+<tr>
+<td markdown="span"><a href="https://github.com/Wu-Wu/charts/tree/main/charts/cyberchef">Cyberchef</a></td>
+<td markdown="span">0.0.1</td>
+<td markdown="span">10.22.1</td>
+<td markdown="span">The Cyber Swiss Army Knife</td>
+</tr>
 </tbody>
 </table>
